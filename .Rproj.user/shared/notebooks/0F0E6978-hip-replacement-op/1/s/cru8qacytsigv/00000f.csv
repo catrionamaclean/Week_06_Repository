@@ -1,0 +1,8 @@
+"0","age_EQ5D <- hip_data %>%"
+"0","  select(`Age Band`,`Pre-Op Q EQ5D Index`,`Post-Op Q EQ5D Index`) %>%"
+"0","  rename(Age  = `Age Band`,"
+"0","         EQ5D_Pre = `Pre-Op Q EQ5D Index`,"
+"0","         EQ5D_Post = `Post-Op Q EQ5D Index`"
+"0","         )"
+"0",""
+"0","head(age_EQ5D)"

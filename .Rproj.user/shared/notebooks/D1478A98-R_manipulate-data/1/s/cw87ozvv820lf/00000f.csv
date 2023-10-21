@@ -1,0 +1,3 @@
+"0","fev_data %>%"
+"0","  group_by(height < 60) %>%"
+"0","  summarise(n(), mean(fev))"

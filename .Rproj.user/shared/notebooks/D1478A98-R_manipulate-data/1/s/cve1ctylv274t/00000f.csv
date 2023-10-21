@@ -1,0 +1,3 @@
+"0","fev_data %>%"
+"0","  group_by(smoke) %>%"
+"0","  summarise(n = n(), mean = mean(fev), sd = sd(fev))"

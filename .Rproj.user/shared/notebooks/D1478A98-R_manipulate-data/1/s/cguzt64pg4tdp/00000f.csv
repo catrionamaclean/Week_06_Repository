@@ -1,0 +1,8 @@
+"0","tidy_patient_tests <- patient_tests %>%"
+"0","  pivot_longer("
+"0","    c('test_result_month1','test_result_month2','test_result_month3'),"
+"0","    names_to= 'month',"
+"0","    values_to='test_result'"
+"0","    )"
+"0",""
+"0","tidy_patient_tests"

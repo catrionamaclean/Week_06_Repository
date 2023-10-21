@@ -1,0 +1,3 @@
+"0","new_fev_data <- fev_data %>%"
+"0","  rename(id = subjid) %>%"
+"0","  mutate(heightdiff = height - mean(height))"

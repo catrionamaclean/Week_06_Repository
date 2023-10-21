@@ -1,0 +1,93 @@
+"0","glimpse(hip_data)"
+"1","Rows: 28,920"
+"1",""
+"1","
+"
+"1","Columns: 81"
+"1",""
+"1","
+"
+"1","$ `Provider Code`                                  [3m[38;5;246m<chr>[39m[23m ""00C"", ""00C"", ""00C""…
+$ Procedure                                        [3m[38;5;246m<chr>[39m[23m ""Hip Replacement"", …
+$ `Revision Flag`                                  [3m[38;5;246m<dbl>[39m[23m 0, 0, 1, 1, 0, 0, 0…
+$ Year                                             [3m[38;5;246m<chr>[39m[23m ""2018/19"", ""2018/19…
+$ `Age Band`                                       [3m[38;5;246m<chr>[39m[23m ""*"", ""*"", ""*"", ""*"",…
+$ Gender                                           [3m[38;5;246m<chr>[39m[23m ""*"", ""*"", ""*"", ""*"",…
+$ `Pre-Op Q Assisted`                              [3m[38;5;246m<dbl>[39m[23m 2, 2, 1, 2, 2, 2, 2…
+$ `Pre-Op Q Assisted By`                           [3m[38;5;246m<dbl>[39m[23m 0, 0, 0, 0, 0, 0, 0…
+$ `Pre-Op Q Symptom Period`                        [3m[38;5;246m<dbl>[39m[23m 4, 2, 4, 1, 2, 1, 1…
+$ `Pre-Op Q Previous Surgery`                      [3m[38;5;246m<dbl>[39m[23m 2, 1, 1, 1, 2, 2, 1…
+$ `Pre-Op Q Living Arrangements`                   [3m[38;5;246m<dbl>[39m[23m 1, 1, 2, 2, 1, 2, 1…
+$ `Pre-Op Q Disability`                            [3m[38;5;246m<dbl>[39m[23m 9, 1, 1, 1, 2, 1, 2…
+$ `Heart Disease`                                  [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 9, 9…
+$ `High Bp`                                        [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 1, 9…
+$ Stroke                                           [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 9, 1…
+$ Circulation                                      [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 1, 9, 9…
+$ `Lung Disease`                                   [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 9, 9…
+$ Diabetes                                         [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 9, 9…
+$ `Kidney Disease`                                 [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 1, 9…
+$ `Nervous System`                                 [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 9, 9…
+$ `Liver Disease`                                  [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 9, 1…
+$ Cancer                                           [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 9, 9, 9, 1…
+$ Depression                                       [3m[38;5;246m<dbl>[39m[23m 9, 9, 9, 1, 9, 9, 9…
+$ Arthritis                                        [3m[38;5;246m<dbl>[39m[23m 9, 1, 1, 1, 1, 1, 9…
+$ `Pre-Op Q Mobility`                              [3m[38;5;246m<dbl>[39m[23m 2, 2, 9, 2, 2, 2, 2…
+$ `Pre-Op Q Self-Care`                             [3m[38;5;246m<dbl>[39m[23m 1, 2, 9, 1, 2, 1, 1…
+$ `Pre-Op Q Activity`                              [3m[38;5;246m<dbl>[39m[23m 9, 3, 9, 3, 3, 2, 2…
+$ `Pre-Op Q Discomfort`                            [3m[38;5;246m<dbl>[39m[23m 9, 3, 9, 3, 3, 3, 2…
+$ `Pre-Op Q Anxiety`                               [3m[38;5;246m<dbl>[39m[23m 9, 1, 9, 2, 3, 1, 1…
+$ `Pre-Op Q EQ5D Index Profile`                    [3m[38;5;246m<dbl>[39m[23m 21999, 22331, 99999…
+$ `Pre-Op Q EQ5D Index`                            [3m[38;5;246m<dbl>[39m[23m NA, -0.003, NA, 0.0…
+$ `Post-Op Q Assisted`                             [3m[38;5;246m<dbl>[39m[23m 2, 2, 1, 2, 2, 2, 1…
+$ `Post-Op Q Assisted By`                          [3m[38;5;246m<dbl>[39m[23m 9, 9, 1, 9, 9, 9, 1…
+$ `Post-Op Q Living Arrangements`                  [3m[38;5;246m<dbl>[39m[23m 1, 1, 2, 2, 1, 2, 1…
+$ `Post-Op Q Disability`                           [3m[38;5;246m<dbl>[39m[23m 2, 9, 1, 2, 1, 2, 2…
+$ `Post-Op Q Mobility`                             [3m[38;5;246m<dbl>[39m[23m 2, 9, 2, 1, 2, 2, 1…
+$ `Post-Op Q Self-Care`                            [3m[38;5;246m<dbl>[39m[23m 2, 1, 2, 1, 1, 1, 1…
+$ `Post-Op Q Activity`                             [3m[38;5;246m<dbl>[39m[23m 2, 9, 3, 1, 2, 2, 1…
+$ `Post-Op Q Discomfort`                           [3m[38;5;246m<dbl>[39m[23m 2, 1, 3, 2, 2, 2, 1…
+$ `Post-Op Q Anxiety`                              [3m[38;5;246m<dbl>[39m[23m 2, 1, 2, 1, 2, 1, 1…
+$ `Post-Op Q Satisfaction`                         [3m[38;5;246m<dbl>[39m[23m 2, 3, 2, 1, 3, 1, 1…
+$ `Post-Op Q Sucess`                               [3m[38;5;246m<dbl>[39m[23m 1, 1, 1, 1, 2, 2, 1…
+$ `Post-Op Q Allergy`                              [3m[38;5;246m<dbl>[39m[23m 2, 2, 2, 2, 2, 9, 9…
+$ `Post-Op Q Bleeding`                             [3m[38;5;246m<dbl>[39m[23m 2, 2, 2, 2, 2, 9, 9…
+$ `Post-Op Q Wound`                                [3m[38;5;246m<dbl>[39m[23m 2, 2, 1, 2, 2, 9, 9…
+$ `Post-Op Q Urine`                                [3m[38;5;246m<dbl>[39m[23m 2, 2, 2, 2, 2, 1, 9…
+$ `Post-Op Q Further Surgery`                      [3m[38;5;246m<dbl>[39m[23m 2, 2, 1, 2, 2, 2, 2…
+$ `Post-Op Q Readmitted`                           [3m[38;5;246m<dbl>[39m[23m 2, 2, 1, 2, 2, 2, 2…
+$ `Post-Op Q EQ5D Index Profile`                   [3m[38;5;246m<dbl>[39m[23m 22222, 91911, 22332…
+$ `Post-Op Q EQ5D Index`                           [3m[38;5;246m<dbl>[39m[23m 0.516, NA, -0.074, …
+$ `Hip Replacement EQ5D Index Post-Op Q Predicted` [3m[38;5;246m<dbl>[39m[23m NA, NA, NA, 0.51544…
+$ `Pre-Op Q EQ VAS`                                [3m[38;5;246m<dbl>[39m[23m 999, 999, 999, 50, …
+$ `Post-Op Q EQ VAS`                               [3m[38;5;246m<dbl>[39m[23m 70, 999, 80, 90, 70…
+$ `Hip Replacement EQ VAS Post-Op Q Predicted`     [3m[38;5;246m<dbl>[39m[23m NA, NA, NA, 60.0526…
+$ `Hip Replacement Pre-Op Q Pain`                  [3m[38;5;246m<dbl>[39m[23m 1, 0, 0, 0, 0, 0, 1…
+$ `Hip Replacement Pre-Op Q Sudden Pain`           [3m[38;5;246m<dbl>[39m[23m 0, 1, 0, 0, 0, 1, 4…
+$ `Hip Replacement Pre-Op Q Night Pain`            [3m[38;5;246m<dbl>[39m[23m 2, 0, 1, 0, 0, 1, 1…
+$ `Hip Replacement Pre-Op Q Washing`               [3m[38;5;246m<dbl>[39m[23m 3, 1, 1, 2, 2, 4, 4…
+$ `Hip Replacement Pre-Op Q Transport`             [3m[38;5;246m<dbl>[39m[23m 2, 1, 1, 0, 1, 2, 2…
+$ `Hip Replacement Pre-Op Q Dressing`              [3m[38;5;246m<dbl>[39m[23m 1, 0, 1, 0, 1, 4, 2…
+$ `Hip Replacement Pre-Op Q Shopping`              [3m[38;5;246m<dbl>[39m[23m 3, 2, 0, 0, 0, 0, 3…
+$ `Hip Replacement Pre-Op Q Walking`               [3m[38;5;246m<dbl>[39m[23m 2, 0, 1, 1, 1, 3, 3…
+$ `Hip Replacement Pre-Op Q Limping`               [3m[38;5;246m<dbl>[39m[23m 2, 0, 0, 1, 0, 0, 0…
+$ `Hip Replacement Pre-Op Q Stairs`                [3m[38;5;246m<dbl>[39m[23m 2, 1, 1, 1, 1, 2, 4…
+$ `Hip Replacement Pre-Op Q Standing`              [3m[38;5;246m<dbl>[39m[23m 1, 1, 1, 2, 1, 1, 4…
+$ `Hip Replacement Pre-Op Q Work`                  [3m[38;5;246m<dbl>[39m[23m 1, 1, 0, 1, 0, 0, 4…
+$ `Hip Replacement Pre-Op Q Score`                 [3m[38;5;246m<dbl>[39m[23m 20, 8, 7, 8, 7, 18,…
+$ `Hip Replacement Post-Op Q Pain`                 [3m[38;5;246m<dbl>[39m[23m 3, 4, 2, 2, 4, 2, 2…
+$ `Hip Replacement Post-Op Q Sudden Pain`          [3m[38;5;246m<dbl>[39m[23m 4, 4, 4, 2, 2, 2, 4…
+$ `Hip Replacement Post-Op Q Night Pain`           [3m[38;5;246m<dbl>[39m[23m 4, 4, 4, 1, 4, 2, 4…
+$ `Hip Replacement Post-Op Q Washing`              [3m[38;5;246m<dbl>[39m[23m 4, 3, 3, 4, 3, 4, 4…
+$ `Hip Replacement Post-Op Q Transport`            [3m[38;5;246m<dbl>[39m[23m 4, 4, 2, 3, 3, 2, 4…
+$ `Hip Replacement Post-Op Q Dressing`             [3m[38;5;246m<dbl>[39m[23m 2, 4, 3, 3, 4, 4, 3…
+$ `Hip Replacement Post-Op Q Shopping`             [3m[38;5;246m<dbl>[39m[23m 4, 2, 0, 3, 2, 0, 4…
+$ `Hip Replacement Post-Op Q Walking`              [3m[38;5;246m<dbl>[39m[23m 4, 3, 1, 4, 3, 2, 4…
+$ `Hip Replacement Post-Op Q Limping`              [3m[38;5;246m<dbl>[39m[23m 3, 1, 1, 4, 2, 0, 3…
+$ `Hip Replacement Post-Op Q Stairs`               [3m[38;5;246m<dbl>[39m[23m 4, 1, 1, 3, 2, 4, 4…
+$ `Hip Replacement Post-Op Q Standing`             [3m[38;5;246m<dbl>[39m[23m 3, 4, 3, 3, 4, 2, 4…
+$ `Hip Replacement Post-Op Q Work`                 [3m[38;5;246m<dbl>[39m[23m 4, 4, 2, 4, 2, 2, 3…
+$ `Hip Replacement Post-Op Q Score`                [3m[38;5;246m<dbl>[39m[23m 43, 38, 26, 36, 35,…
+$ `Hip Replacement OHS Post-Op Q Predicted`        [3m[38;5;246m<dbl>[39m[23m 42.20017, 35.29577,…"
+"1",""
+"1","
+"
