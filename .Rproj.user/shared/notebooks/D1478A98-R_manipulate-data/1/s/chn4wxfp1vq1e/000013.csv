@@ -1,0 +1,7 @@
+"0","fev_data %>% 
+  group_by(age, smoke) %>% 
+  summarise(n = n(), mean = mean(fev), sd = sd(fev)) %>% 
+  filter(n>5) %>% #this is just removing rows with a low count (need at least 5)
+  arrange(desc(age))
+"
+"2","`summarise()` has grouped output by 'age'. You can override using the `.groups` argument."

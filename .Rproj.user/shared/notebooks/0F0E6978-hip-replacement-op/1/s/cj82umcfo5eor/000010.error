@@ -1,0 +1,1 @@
+{"frames":[{"func":"age_EQ5D$Age %>% unique()","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0},{"func":"unique(.)","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0}],"message":"Error in unique(.) : object 'age_EQ5D' not found\n"}

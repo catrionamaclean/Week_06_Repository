@@ -1,4 +1,4 @@
-"0","fev_data$age %>% unique %>% sort
+"0","fev_data$age %>% unique %>% sort # Sort unique values in a column
 "
 "1"," [1]"
 "1","  3"
